@@ -21,7 +21,7 @@ if ($worktype)
     $worktype = explode('-', $worktype);
 
 $worktypes = [];
-$entity_data_class = ArtPobedaHelper::getHlClassByName('RefBookMain');//Проверяем ЖК если нет добавляем если есть то берем ИД
+$entity_data_class = ArtPobedaHelper::getHlClassByName('RefBookMain');//справочник с видами работ
 $rsData = $entity_data_class::getList(array(
     'order' => array('ID' => 'ASC'),
     'select' => array('*'),
