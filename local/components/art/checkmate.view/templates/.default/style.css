@@ -1,0 +1,101 @@
+.checkmate {
+    /*width: 800px; /* Ширина таблицы */
+}
+
+.flat {
+    float: left;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.incorrect-data {
+    border: 1px solid red !important;
+}
+
+.needless {
+    background-color: #f5f5f5 !important;
+}
+
+.workarea-content-paddings {
+    overflow: visible !important;
+}
+
+.flatinfo {
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.checkmate-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    table-layout: inherit;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+hr {
+    height: 5px;
+    border: none;
+    color: #333;
+    background-color: #333;
+}
+
+table {
+    border: 0;
+}
+
+.legend {
+    width: 24px;
+}
+
+.work-carried {
+    background-color: #CCFFCC;
+}
+
+.work-noncarried {
+    background-color: #ffdb8b;
+}
+
+.unfilter {
+    background-color: #f5f5f5;
+}
+
+.delimeter {
+    border-bottom: 5px solid black;
+}
+
+.checkmate label {
+    font-size: 25px;
+    /*-ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
+    -ms-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+
+    padding: 0;
+    float: left;
+    height:80px;
+    width:5px;
+    white-space: nowrap;
+
+    font-size:20px;*/
+}
